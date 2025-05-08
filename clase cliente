@@ -1,0 +1,14 @@
+public class Cliente {
+    private String nombre;
+    private Animal mascota;
+
+    public Cliente(String nombre, Animal mascota) {
+        this.nombre = nombre;
+        this.mascota = mascota;
+    }
+
+    public void mostrarCliente() {
+        System.out.println("Cliente: " + nombre);
+        mascota.hacerSonido();
+    }
+}
